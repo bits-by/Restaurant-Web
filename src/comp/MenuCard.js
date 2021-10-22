@@ -5,7 +5,8 @@ const MenuCard = ({menuData}) => {
         <div>
                 <section className="main-card--container">
                 {menuData.map((curElem) => {
-                        const {id, name, description, image, category} = curElem;
+                    //destructuring.........
+                    const {id, name, description, image, category} = curElem;
 
                     return(
 
@@ -13,11 +14,10 @@ const MenuCard = ({menuData}) => {
                             <div className="card-container" key={id}>
                                 <div className="card">
                                     <span className="card-number subtle">{id}</span>
-                                    <span className="card-author subtle">{name}</span>
+                                    <span className="card-author subtle">{category}</span>
                                     <h2 className="card-title">{name}</h2>
-                                    <p className="card-description">Lorem ipsum dolor sit amet 
-                                    consectetur adipisicing elit. Vitae natus necessitatibus veniam
-                                    velit et.</p>
+                                    <p className="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                             Delectus sed omnis quo in assumenda veniam.</p>
                                     <div>
                                         <img src="images" alt="image" className="card-media" />
                                         <span className="card-tag subtle">Order Now</span>

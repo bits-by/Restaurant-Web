@@ -4,9 +4,11 @@ import Restarant from './comp/Restarant';
 
 const App = () => {
     return (
+        
         <>
         <Navbar />
         <Restarant />
+            
         </>
     )
 }
