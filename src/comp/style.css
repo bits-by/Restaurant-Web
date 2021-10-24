@@ -130,12 +130,12 @@
   background-color: rgb(255, 255, 255);
   margin: 0;
   font-size: 17px;
-  box-shadow: inset 0px 0px 0px -15px rebeccapurple;
+  box-shadow: inset 0px 0px 0px -15px #f1356d;
   transition: all 200ms ease-out;
   text-transform: capitalize;
 }
 
 .btn-group__item:hover {
-  color: rebeccapurple;
-  box-shadow: inset 0px -20px 0px -15px rebeccapurple;
+  color: #f1356d;
+  box-shadow: inset 0px -20px 0px -15px #f1356d;
 }
