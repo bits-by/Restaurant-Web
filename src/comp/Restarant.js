@@ -10,6 +10,7 @@ const uniqueList = [
     return curElem.category;
     })
     ),
+    
 ]
 
 const Restarant = () => {
